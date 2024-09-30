@@ -1,0 +1,49 @@
+* {
+    font-family: 'Brush Script MT', cursive, serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: orangered;
+}
+
+h1,
+figcaption,
+.list {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#recipes {
+    font-size: 40px;
+    text-align: left;
+    color: rgb(17, 87, 38);
+    
+}
+
+.ingredients, .steps {
+    font-size: 22px
+}
+
+.ingredients {
+    list-style-type: circle;
+}
+
+.list {
+    font-size: 30px;
+    background-color: #ff440050;
+}
+
+
+ul, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: darkblue;
+}
