@@ -1,5 +1,6 @@
 * {
     font-family: 'Brush Script MT', cursive, serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -8,22 +9,37 @@ h1 {
     color: orangered;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border: lightcyan groove 4px;
+    padding: 8px;
+}
+
 h1,
 figcaption,
 .list {
     text-align: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+figcaption {
+    padding: 4px;
+    margin: 2px auto 10px;
+}
+
+h2 {
+    background: rgb(175, 232, 175);
+    padding: 8px;
+    display: inline-block;
+    margin: 8px ;    
+    border: darkolivegreen groove 4px;
 }
 
 #recipes {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
     color: rgb(17, 87, 38);
     
 }
@@ -39,6 +55,19 @@ figcaption,
 .list {
     font-size: 30px;
     background-color: #ff440050;
+    padding: 20px;
+    border: orangered groove 4px;
+    margin: 10px;
+}
+
+.burger, .pizza, .ramen {
+    background: #edb19c8e;
+    display: block;
+    padding: 8px;
+    margin: 5px 0px
+}
+.pizza {
+    background: #b291858e;
 }
 
 
@@ -47,3 +76,4 @@ ul, a {
     list-style-type: none;
     color: darkblue;
 }
+
